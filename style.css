@@ -1,5 +1,7 @@
 body {
     background-color: rgb(90, 84, 84);
+    margin: 0;
+    padding: 0;
 }
 
 .head-body {
@@ -62,6 +64,8 @@ body {
     height: 100px;
     width: 150px;
     margin-left: auto;
+    margin-right: 2em;
+    padding-bottom: auto;
 }
 
 .content-top {
@@ -70,17 +74,19 @@ body {
     border-radius: 10px;
     text-align: center;
     height: 300px;
+    margin-bottom: fixed;
 }
 
 .contents {
     display: flex;
+    flex: 1 1 auto;
     justify-content: space-between;
     padding: 2em;
 }
 
 .img {
-    height: 100px;
-    width: 100px;
+    height: 100%;
+    width: 100%;
 }
 
 .pimg {
