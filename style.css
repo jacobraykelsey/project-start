@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(29, 80, 87);
+}
+
+.header {
+    background-color: grey;
+    display: flex;
+    padding-left: 10em;
+}
+
+.head-links {
+    display: flex;
+    gap: 2em;
+    align-items: flex-start;
+}
+
+.sub-header {
+    background-color: hotpink;
+}
+
+.content-top {
+    background-color: lightskyblue;
+}
+
+.content-bottom {
+    background-color: green;
+}
+
+.sign-up {
+    background-color: mediumaquamarine;
+}
+
+.footer {
+    background-color: gold;
+    text-align: center;
+}
