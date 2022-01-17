@@ -82,6 +82,7 @@ body {
     flex: 1 1 auto;
     justify-content: space-between;
     padding: 2em;
+    margin: 2em;
 }
 
 .img {
