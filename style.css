@@ -106,7 +106,7 @@ body {
     background-color: rgb(90, 84, 84);
     border-radius: 10px;
     padding: 5em;
-    margin-top: 1em;
+    margin-top: 3em;
     color: whitesmoke;
 }
 
@@ -118,7 +118,7 @@ body {
     margin-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
+    width: 370px;
     text-align: center;
 }
 
