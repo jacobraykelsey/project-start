@@ -14,6 +14,7 @@ body {
 }
 
 .header h1 {
+    padding-left: .5em;
     font-size: 32px;
     color: whitesmoke;
     width: 300px;
@@ -69,6 +70,8 @@ body {
 }
 
 .content-top {
+    display: flex;
+    flex-direction: column;
     color: whitesmoke;
     background-color: grey;
     border-radius: 10px;
@@ -81,8 +84,10 @@ body {
     display: flex;
     flex: 1 1 auto;
     justify-content: space-between;
+    align-items: center;
     padding: 2em;
-    margin: 2em;
+    margin: 0em;
+    background-color: grey;
 }
 
 .img {
@@ -93,12 +98,14 @@ body {
 .pimg {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .content-bottom {
     background-color: rgb(90, 84, 84);
     border-radius: 10px;
-    padding: 2em;
+    padding: 5em;
     margin-top: 1em;
     color: whitesmoke;
 }
